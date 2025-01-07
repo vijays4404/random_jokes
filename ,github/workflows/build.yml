@@ -1,6 +1,12 @@
 name: 'Kivy App to APK'
 on:
   push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:  # Enable manual trigger
 description: 'Convert Kivy app to APK'
 inputs:
   python-version:

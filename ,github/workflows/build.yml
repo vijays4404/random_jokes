@@ -1,4 +1,6 @@
 name: 'Kivy App to APK'
+on:
+  push:
 description: 'Convert Kivy app to APK'
 inputs:
   python-version:

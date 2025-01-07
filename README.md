@@ -1,1 +1,1 @@
-this is motivation quote app
+this is motivation quote appuiui
